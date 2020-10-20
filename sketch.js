@@ -16,7 +16,7 @@ var ordered = [];
 
 function setup() {
 
-  createCanvas(400, 400);
+  createCanvas(displayWidth-50, displayHeight-25);
   background(0);
   strokeWeight(4);
   colorMode(HSB);
